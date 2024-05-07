@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SF-DSS.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
+      "PackagePath": "staticwebassets\\css\\chatbot.css"
+    },
+    {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +19,26 @@
     {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\background.png",
       "PackagePath": "staticwebassets\\imgs\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\xiaovi-3d-logo-simplistic-art-style-modern-farming-greenhouse-t-106f5735993444ff852dbbd5c9fdbd5cremovebgpreview-1@2x.png",
+      "PackagePath": "staticwebassets\\imgs\\xiaovi-3d-logo-simplistic-art-style-modern-farming-greenhouse-t-106f5735993444ff852dbbd5c9fdbd5cremovebgpreview-1@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\xiaovi-greenhouse-with-drones-flying-around-high-quality-photor-6b98d17f34be42b09c109254f7f3ec87-2@2x.png",
+      "PackagePath": "staticwebassets\\imgs\\xiaovi-greenhouse-with-drones-flying-around-high-quality-photor-6b98d17f34be42b09c109254f7f3ec87-2@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\site.js",

@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Chatbot";
+}
+
+<div class="chatbot">
+    <main class="building-blockscard-statesou-parent">
+        <div class="chat" id="chatArea"></div>
+        <footer class="send-shape">
+            <div class="building-blockscard-statesou-group">
+                <input class="building-blockscard-statesou1" id="userMessage" type="text" />
+
+                <div class="start-chatting">Start Chatting</div>
+            </div>
+            <button class="frame-button" onclick="sendMessage()">
+                <b class="send">Send</b>
+            </button>
+        </footer>
+    </main>
+</div>
+ 
+
+@section Scripts {
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("userMessage").value;
+            document.getElementById("chatArea").innerHTML += "<p>You: " + message + "</p>";
+            document.getElementById("userMessage").value = "";
+
+            // Send message to server and get response
+            $.post("/Chat/SendMessage", { message: message }, function (response) {
+                document.getElementById("chatArea").innerHTML += "<p>Chatbot: " + response + "</p>";
+            });
+        }
+    </script>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+}
