@@ -23,6 +23,8 @@ namespace SF_DSS
 
             builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
+            builder.Services.AddScoped<HttpClient>();
+
             builder.Services.AddSignalR();
 
             var app = builder.Build();

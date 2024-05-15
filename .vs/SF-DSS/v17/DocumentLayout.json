@@ -7,100 +7,55 @@
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\home\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\models\\services\\chatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:models\\services\\chatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\models\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:models\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\models\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:models\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\data\\entities\\cropgrowthplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:data\\entities\\cropgrowthplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\sf-dss.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:sf-dss.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D34843F7-3785-4E78-8D7B-E7409A17A561}|..\\UnitTest\\UnitTest.csproj|c:\\users\\thinkpad\\source\\repos\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,11 +65,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CropGrowthPlan.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\CropGrowthPlan.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
+              "RelativeToolTip": "Data\\Entities\\CropGrowthPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:42:11.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IChatbotService.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\IChatbotService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\IChatbotService.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\IChatbotService.cs",
+              "RelativeToolTip": "Models\\Services\\IChatbotService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:29:07.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:36:28.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\UnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:27:09.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatbotService.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\ChatbotService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\ChatbotService.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\ChatbotService.cs",
+              "RelativeToolTip": "Models\\Services\\ChatbotService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIA4wB4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:30:01.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:23:59.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chatbot.cshtml",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Chatbot.cshtml",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
+              "RelativeToolTip": "Views\\Home\\Chatbot.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T08:05:30.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:05:23.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatbotController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\ChatbotController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatbotController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\ChatbotController.cs",
+              "RelativeToolTip": "Controllers\\ChatbotController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:05:14.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "chatbot.css",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\chatbot.css",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
+              "RelativeToolTip": "wwwroot\\css\\chatbot.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-15T08:05:10.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -124,183 +209,40 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
               "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\chat.js",
               "RelativeToolTip": "wwwroot\\js\\chat.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA6AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwCIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-06T13:26:07.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:19:45.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "chatbot.css",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\chatbot.css",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
-              "RelativeToolTip": "wwwroot\\css\\chatbot.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-06T10:27:02.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-22T09:46:03.962Z",
+              "WhenOpened": "2024-05-15T08:04:54.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:02:36.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Chatbot.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Chatbot.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
-              "RelativeToolTip": "Views\\Home\\Chatbot.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T09:14:01.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:09:33.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:18:23.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:01:52.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:03:10.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:44:48.467Z",
+              "WhenOpened": "2024-05-13T08:12:23.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:51:38.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "bootstrap-grid.css.map",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABrdQIA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-06T12:21:17.104Z",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T08:11:35.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:03:18.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -308,136 +250,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:03:12.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-22T09:15:04.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-19T09:45:40.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ChatbotService.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\ChatbotService.cs",
-              "RelativeDocumentMoniker": "Models\\Services\\ChatbotService.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\ChatbotService.cs",
-              "RelativeToolTip": "Models\\Services\\ChatbotService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:59:52.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ChatbotController.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\ChatbotController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChatbotController.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\ChatbotController.cs",
-              "RelativeToolTip": "Controllers\\ChatbotController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:50:00.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T09:09:07.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IChatbotService.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\IChatbotService.cs",
-              "RelativeDocumentMoniker": "Models\\Services\\IChatbotService.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\IChatbotService.cs",
-              "RelativeToolTip": "Models\\Services\\IChatbotService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:52:19.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SF-DSS.csproj",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\SF-DSS.csproj",
-              "RelativeDocumentMoniker": "SF-DSS.csproj",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\SF-DSS.csproj*",
-              "RelativeToolTip": "SF-DSS.csproj*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-22T11:28:51.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\favicon.ico",
-              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
-              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2024-04-22T12:15:06.646Z",
-              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T11:08:53.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAgwB0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T11:07:40.748Z",
+              "WhenOpened": "2024-05-13T08:11:25.208Z",
               "EditorCaption": ""
             }
           ]
