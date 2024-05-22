@@ -3,21 +3,14 @@
 }
 
 <div class="chatbot">
-    <main class="building-blockscard-statesou-parent">
-        <div class="chat" id="chatArea"></div>
-        <footer class="send-shape">
-            <div class="building-blockscard-statesou-group">
-                <input class="building-blockscard-statesou1" id="userInput" type="text" placeholder="Your Name" />
-                <input class="building-blockscard-statesou1" id="messageInput" type="text" placeholder="Your Message" />
-                <div class="start-chatting"></div>
-            </div>
-            <button class="frame-button" onclick="sendMessage()">
-                <b class="send">Send</b>
-            </button>
-        </footer>
-    </main>
+    <div class="chat" id="chatArea">
+        <ul id="messagesList"></ul>
+    </div>
+    <footer class="chatbot-footer">
+        <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
+        <button id="sendButton" class="send-button" onclick="sendMessage()"><b>Send</b></button>
+    </footer>
 </div>
- 
 
 @section Scripts {
     <script src="~/js/signalr/dist/browser/signalr.js"></script>
