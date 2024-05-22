@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using SF_DSS.Data;
 using SF_DSS.Models.Services;
 using SF_DSS;
+using Microsoft.AspNetCore.Http.Timeouts;
+using Microsoft.Extensions.Options;
 namespace SF_DSS
 {
     public class Program
@@ -24,7 +26,10 @@ namespace SF_DSS
             builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
             builder.Services.AddScoped<HttpClient>();
-
+            builder.Services.AddRequestTimeouts(options => {
+                options.DefaultPolicy =
+                    new RequestTimeoutPolicy { Timeout = TimeSpan.FromMilliseconds(15000000) };
+            });
             builder.Services.AddSignalR();
 
             var app = builder.Build();

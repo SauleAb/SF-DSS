@@ -2,6 +2,8 @@
 .home {
     position: relative;
     display: none;
+    height: 24px;
+    width: 46px;
 }
 
 .frame-child {
@@ -9,11 +11,6 @@
     width: 1459px;
     background-color: var(--colour-secondary-white-100-general);
     max-width: 100%;
-}
-
-.home {
-    height: 24px;
-    width: 46px;
 }
 
 .xiaovi-3d-logo-simplistic-art-icon {

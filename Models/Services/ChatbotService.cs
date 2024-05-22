@@ -20,11 +20,8 @@ namespace SF_DSS.Models.Services
         {
             try
             {
-                var requestBody = JsonConvert.SerializeObject(new { message });
-
-                var content = new StringContent(requestBody, Encoding.UTF8, "application/json");
-
-                using (var response = _httpClient.GetAsync("http://145.93.168.159:5000/chat?message=" + message).Result)
+                _httpClient.Timeout = new TimeSpan(1000000000);
+                using (var response = _httpClient.GetAsync("http://145.93.168.223:5001/chat?message=" + message).Result)
                 {
                     response.EnsureSuccessStatusCode();
 
