@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using WebPWrecover.Services;
 using Microsoft.EntityFrameworkCore;
 using SF_DSS.Data;
 using SF_DSS.Models.Services;
@@ -22,6 +24,8 @@ namespace SF_DSS
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
+            builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
 
             builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
