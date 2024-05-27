@@ -101,24 +101,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CropGrowthPlan.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\CropGrowthPlan.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
-              "RelativeToolTip": "Data\\Entities\\CropGrowthPlan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:42:11.383Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,8 +117,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:36:28.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T10:36:28.935Z"
             },
             {
               "$type": "Document",
@@ -143,8 +129,7 @@
               "RelativeToolTip": "..\\UnitTest\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T09:27:09.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T09:27:09.731Z"
             },
             {
               "$type": "Document",
@@ -156,8 +141,7 @@
               "RelativeToolTip": "Models\\Services\\ChatbotService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAiwBYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:30:01.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:30:01.059Z"
             },
             {
               "$type": "Document",
@@ -169,8 +153,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:23:59.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:23:59.133Z"
             },
             {
               "$type": "Document",
@@ -178,12 +161,36 @@
               "Title": "Chatbot.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Chatbot.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Chatbot.cshtml*",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
+              "RelativeToolTip": "Views\\Home\\Chatbot.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T08:05:30.971Z",
+              "WhenOpened": "2024-05-15T08:05:30.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswGIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T08:12:23.505Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CropGrowthPlan.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\CropGrowthPlan.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
+              "RelativeToolTip": "Data\\Entities\\CropGrowthPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:42:11.383Z"
             },
             {
               "$type": "Document",
@@ -195,8 +202,7 @@
               "RelativeToolTip": "Hubs\\ChatHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:05:23.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:05:23.77Z"
             },
             {
               "$type": "Document",
@@ -208,8 +214,7 @@
               "RelativeToolTip": "Controllers\\ChatbotController.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAhwBYAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:05:14.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:05:14.791Z"
             },
             {
               "$type": "Document",
@@ -221,8 +226,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T09:08:47.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T09:08:47.383Z"
             },
             {
               "$type": "Document",
@@ -234,21 +238,7 @@
               "RelativeToolTip": "wwwroot\\js\\chat.js",
               "ViewState": "AQIAACoAAAAAAAAAAAAUwEIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-15T08:04:54.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T08:12:23.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:04:54.073Z"
             },
             {
               "$type": "Document",
@@ -260,8 +250,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T09:05:55.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T09:05:55.21Z"
             },
             {
               "$type": "Document",
@@ -273,8 +262,7 @@
               "RelativeToolTip": "wwwroot\\css\\chatbot.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-15T08:05:10.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:05:10.104Z"
             },
             {
               "$type": "Document",
@@ -286,8 +274,7 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-22T09:08:19.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T09:08:19.699Z"
             },
             {
               "$type": "Document",
@@ -299,8 +286,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-22T11:23:17.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T11:23:17.189Z"
             },
             {
               "$type": "Document",
@@ -312,8 +298,7 @@
               "RelativeToolTip": "Models\\Services\\EmailSender.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:18:41.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:18:41.438Z"
             },
             {
               "$type": "Document",
@@ -325,8 +310,7 @@
               "RelativeToolTip": "Models\\Services\\IChatbotService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T11:29:07.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T11:29:07.766Z"
             },
             {
               "$type": "Document",
@@ -338,8 +322,7 @@
               "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAQwFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T09:06:45.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T09:06:45.422Z"
             },
             {
               "$type": "Document",
@@ -351,8 +334,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwCsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:18:39.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T09:18:39.757Z"
             },
             {
               "$type": "Document",
@@ -364,8 +346,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T09:27:34.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T09:27:34.838Z"
             },
             {
               "$type": "Document",
@@ -377,8 +358,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:11:53.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T09:11:53.774Z"
             },
             {
               "$type": "Document",
@@ -390,8 +370,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T08:11:35.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:11:35.281Z"
             },
             {
               "$type": "Document",
@@ -403,8 +382,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T08:11:25.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:11:25.208Z"
             }
           ]
         }
