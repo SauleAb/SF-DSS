@@ -21,17 +21,23 @@ connection.start().then(function () {
 });
 
 document.getElementById("sendButton").addEventListener("click", function (event) {
-    var message = document.getElementById("messageInput").value;
-    connection.invoke("SendMessage", message).catch(function (err) {
-        return console.error(err.toString());
-    });
     event.preventDefault();
+    sendMessage();
+});
 
-    document.getElementById("messageInput").value = "";
+document.getElementById("messageInput").addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        sendMessage();
+    }
 });
 
 function sendMessage() {
     var message = document.getElementById("messageInput").value;
+    if (message.trim() === "") {
+        return;
+    }
+
     var userLi = document.createElement("li");
     userLi.className = "user-message";
     userLi.textContent = `You: ${message}`;
