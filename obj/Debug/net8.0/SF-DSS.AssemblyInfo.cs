@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SF-DSS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83eb19b2efee4b8bc7a14ca987985a253a650f29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8deddbf0c2eb98a76e64ec0bc2f13195cf3bc0a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SF-DSS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SF-DSS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

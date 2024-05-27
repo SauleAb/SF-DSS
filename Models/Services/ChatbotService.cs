@@ -20,15 +20,13 @@ namespace SF_DSS.Models.Services
         {
             try
             {
-                _httpClient.Timeout = new TimeSpan(1000000000);
-                using (var response = _httpClient.GetAsync("http://145.93.168.223:5001/chat?message=" + message).Result)
-                {
-                    response.EnsureSuccessStatusCode();
+                _httpClient.Timeout = TimeSpan.FromSeconds(1000);
+                var response = await _httpClient.GetAsync("http://95.99.2.118:5001/chat/" + message);
+                response.EnsureSuccessStatusCode();
 
-                    var responseBody = response.Content.ReadAsStringAsync().Result;
+                var responseBody = response.Content.ReadAsStringAsync().Result;
 
-                    return responseBody;
-                }
+                return responseBody;
 
                 // var requestBody = JsonConvert.SerializeObject(new { crop });
                 // 

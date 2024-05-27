@@ -50,10 +50,13 @@ function sendMessage() {
         type: "GET",
         data: { message: message },
         success: function (response) {
-            var botLi = document.createElement("li");
-            botLi.className = "bot-message";
-            botLi.textContent = `Chatbot: ${response.result}`;
-            document.getElementById("messagesList").appendChild(botLi);
+            var steps = response.split("\n\n\n");
+            steps.forEach(function (step) {
+                var botLi = document.createElement("li");
+                botLi.className = "bot-message";
+                botLi.innerHTML = "Chatbot: " + step.replace("\n\n", "<br>");
+                document.getElementById("messagesList").appendChild(botLi);
+            });
 
             document.getElementById("sendButton").disabled = false;
 

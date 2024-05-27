@@ -2,36 +2,87 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center" style="background-image: url('imgs/background.png')">
+
+<div class="text-center">
+    <div class="intro-text">
     <h1 class="display-4">Easy solutions for Hard Farming</h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     <a class="btn btn-outline-dark" asp-area="" asp-controller="Home" asp-action="Chatbot">Start chating</a>
+    </div>
 </div>
-<div>
-    <h1>Smart farming decision support system</h1>
-    <h5>Lorem Ipsum is simp</h5>
+
+<div class="second-block">
+    <div class="text">
+        <h1>Smart farming decision support system</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</h5>
+    </div>
+    <img width="400px" src="~/imgs/greenhouse.png" />
 </div>
+
 <div class="card-group">
     <div class="card">
-            <div class="card-body" style="background-color: #8DDD79;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card-body" style="background-color: #8DDD79;">
+            <h5 class="card-title">Have a Smart Farming day</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
     </div>
     <div class="card">
         <div class="card-body" style="background-color: #8DDD79;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">We grow everything!</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
     </div>
     <div class="card">
         <div class="card-body" style="background-color: #63A46C;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 class="card-title">With an AI chatbot</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
     </div>
 </div>
-<div>
-    <p>Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book.</p>
+
+<div class="full-width">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     <img src="smth.png" />
 </div>
+
+<style>
+    .second-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #F7F1E6;
+    }
+
+        .second-block .text {
+            padding: 50px;
+            width: 40%;
+        }
+
+        .second-block img {
+            flex: 0 0 250px;
+            max-width: 100%;
+        }
+
+    .full-width {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .text-center {
+        background-image: url('../imgs/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 100px 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .intro-text {
+        width: 30%;
+        margin-left: 20%;
+    }
+</style>

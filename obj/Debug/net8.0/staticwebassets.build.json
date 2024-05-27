@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eQbnD6S4D18DJCwZRaT8z5l9b/nSj1Ev9cONvkn8/SQ=",
+  "Hash": "PTCDUf7WUFRweTdMP2uWCIucfuhZk6fLgGSbbv1rAa4=",
   "Source": "SF-DSS",
   "BasePath": "_content/SF-DSS",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\greenhouse.png",
+      "SourceId": "SF-DSS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\",
+      "BasePath": "_content/SF-DSS",
+      "RelativePath": "imgs/greenhouse.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\greenhouse.png"
     },
     {
       "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\xiaovi-3d-logo-simplistic-art-style-modern-farming-greenhouse-t-106f5735993444ff852dbbd5c9fdbd5cremovebgpreview-1@2x.png",

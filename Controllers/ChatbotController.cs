@@ -18,9 +18,9 @@ namespace SF_DSS.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetResponse(string message)
+        public async Task<IActionResult> GetResponse(string message)
         {
-            var response = _chatbotService.GetResponse(message);
+            var response = await  _chatbotService.GetResponse(message);
             return Ok(response);
         }
     }

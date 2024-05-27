@@ -1,18 +1,27 @@
-﻿@{
-    ViewData["Title"] = "Chatbot";
-}
+﻿    @{
+        ViewData["Title"] = "Chatbot";
+    }
 
-<div class="chatbot">
-    <div class="chat" id="chatArea">
-        <ul id="messagesList"></ul>
+    <body class="chatbot-body">
+    <div class="chatbot-container">
+        <div class="chatbot">
+            <div class="chat" id="chatArea">
+                <ul id="messagesList"></ul>
+            </div>
+            <footer class="chatbot-footer">
+                <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
+                <button id="sendButton" class="send-button" onclick="sendMessage()"><b>Send</b></button>
+            </footer>
+        </div>
     </div>
-    <footer class="chatbot-footer">
-        <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
-        <button id="sendButton" class="send-button" onclick="sendMessage()"><b>Send</b></button>
-    </footer>
-</div>
+    </body>
+    @section Scripts {
+        <script src="~/js/signalr/dist/browser/signalr.js"></script>
+        <script src="~/js/chat.js"></script>
+    }
 
-@section Scripts {
-    <script src="~/js/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/chat.js"></script>
-}
+    <style>
+        .chatbot-body {
+            background-color: lightgreen;
+        }
+    </style>
