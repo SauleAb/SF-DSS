@@ -19,21 +19,21 @@
     <img width="400px" src="~/imgs/greenhouse.png" />
 </div>
 
-<div class="card-group">
-    <div class="card">
-        <div class="card-body" style="background-color: #8DDD79;">
+<div class="box-group">
+    <div class="box">
+        <div class="box-body" style="background-color: #8DDD79;">
             <h5 class="card-title">Have a Smart Farming day</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body" style="background-color: #8DDD79;">
+    <div class="box">
+        <div class="box-body" style="background-color: #8DDD79;">
             <h5 class="card-title">We grow everything!</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body" style="background-color: #63A46C;">
+    <div class="box">
+        <div class="box-body" style="background-color: #63A46C;">
             <h5 class="card-title">With an AI chatbot</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
         </div>
@@ -84,5 +84,25 @@
     .intro-text {
         width: 30%;
         margin-left: 20%;
+    }
+
+    .box-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .box {
+        flex: 1;
+        margin: auto;
+    }
+
+    .box-body {
+        border-radius: 20px;
+        padding: 20px;
+        max-width: 33%;
     }
 </style>
