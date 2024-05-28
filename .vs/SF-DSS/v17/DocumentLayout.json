@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\home\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\home\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4569813D-0587-4D15-96E9-C513818D72F8}|SF-DSS.csproj|c:\\users\\thinkpad\\source\\repos\\sf-dss\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,31 +113,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:36:28.935Z"
+              "DocumentIndex": 1,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AQIAAG8HAAAAAAAAAAAAAG8HAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-27T19:33:08.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\UnitTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
-              "RelativeToolTip": "..\\UnitTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T09:27:09.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ChatbotService.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\ChatbotService.cs",
               "RelativeDocumentMoniker": "Models\\Services\\ChatbotService.cs",
@@ -145,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -157,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Chatbot.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Chatbot.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Chatbot.cshtml",
@@ -175,14 +167,38 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAswGIAAAAQAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-13T08:12:23.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\UnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\UnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:27:09.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:36:28.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CropGrowthPlan.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Entities\\CropGrowthPlan.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\CropGrowthPlan.cs",
@@ -194,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
@@ -206,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ChatbotController.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Controllers\\ChatbotController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatbotController.cs",
@@ -218,19 +234,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAPAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-22T09:08:47.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "chat.js",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\chat.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
@@ -242,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -254,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "chatbot.css",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\chatbot.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\chatbot.css",
@@ -266,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -278,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -290,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "Models\\Services\\EmailSender.cs",
@@ -302,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IChatbotService.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Models\\Services\\IChatbotService.cs",
               "RelativeDocumentMoniker": "Models\\Services\\IChatbotService.cs",
@@ -314,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "00000000000000_CreateIdentitySchema.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
@@ -326,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -338,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -350,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -362,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -374,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",

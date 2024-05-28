@@ -45,16 +45,15 @@
     <div class="info">
         <h4 class="display-4">What is SF-DSS</h4>
         <p>Smart farming Decision support system(SF-DSS) Is an online application which harvests the power of research papers and AI to provide an easy way for farmers to look up, make growth plans and prepare for a succefull yield!</p>
+            <a class="btn" asp-area="" asp-controller="Home" asp-action="Chatbot">Start chating</a>
     </div>
 </div>
 </div>
 <style>
-
     .remaining-page {
-        background-image: url('imgs/background_plant.png');
+        background-image: url('imgs/plant2.png');
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position-x: 350%;
+        background-position-x: -80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -71,7 +70,24 @@
         max-height: 400px;
     }
     .chatbot-container .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 40%;
+    }
+
+    .chatbot-container .info h4 {
+        margin-bottom: 50px;
+            }
+
+    .chatbot-container .info .btn {
+        background-color: #8DDD79;
+        color: white;
+        padding: 10px 20px;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
     }
     .second-block {
         display: flex;
