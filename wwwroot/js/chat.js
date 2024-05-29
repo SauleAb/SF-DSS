@@ -45,11 +45,22 @@ function sendMessage() {
 
     document.getElementById("sendButton").disabled = true;
 
+    var typingLi = document.createElement("li");
+    typingLi.id = "typingIndicator";
+    typingLi.className = "typing-indicator";
+    typingLi.textContent = "Chatbot is typing...";
+    document.getElementById("messagesList").appendChild(typingLi);
+
     $.ajax({
         url: "/Chatbot/GetResponse",
         type: "GET",
         data: { message: message },
         success: function (response) {
+            var typingIndicator = document.getElementById("typingIndicator");
+            if (typingIndicator) {
+                typingIndicator.remove();
+            }
+
             var steps = response.split("\n\n\n");
             steps.forEach(function (step) {
                 var botLi = document.createElement("li");
@@ -67,6 +78,11 @@ function sendMessage() {
             console.error(error);
 
             document.getElementById("sendButton").disabled = false;
+
+            var typingIndicator = document.getElementById("typingIndicator");
+            if (typingIndicator) {
+                typingIndicator.remove();
+            }
         }
     });
 
