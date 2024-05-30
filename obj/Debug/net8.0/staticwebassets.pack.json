@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\Blob.png",
+      "PackagePath": "staticwebassets\\imgs\\Blob.png"
+    },
+    {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\Chatbot.png",
       "PackagePath": "staticwebassets\\imgs\\Chatbot.png"
     },
@@ -25,16 +29,8 @@
       "PackagePath": "staticwebassets\\imgs\\background.png"
     },
     {
-      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\background_plant.png",
-      "PackagePath": "staticwebassets\\imgs\\background_plant.png"
-    },
-    {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\greenhouse.png",
       "PackagePath": "staticwebassets\\imgs\\greenhouse.png"
-    },
-    {
-      "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\plant.png",
-      "PackagePath": "staticwebassets\\imgs\\plant.png"
     },
     {
       "Id": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\plant2.png",

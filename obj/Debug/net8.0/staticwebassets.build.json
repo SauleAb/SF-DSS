@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wmxNXpbejZn5eJmJmHzaxkcqZD6bsYxkSNA9fvYolMc=",
+  "Hash": "8S9jd9eLzKAXVaundpyuqrg+3A9KKVhnYVPLbozray4=",
   "Source": "SF-DSS",
   "BasePath": "_content/SF-DSS",
   "Mode": "Default",
@@ -1271,12 +1271,12 @@
       "OriginalItemSpec": "wwwroot\\imgs\\background.png"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\background_plant.png",
+      "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\Blob.png",
       "SourceId": "SF-DSS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\",
       "BasePath": "_content/SF-DSS",
-      "RelativePath": "imgs/background_plant.png",
+      "RelativePath": "imgs/Blob.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1287,7 +1287,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\background_plant.png"
+      "OriginalItemSpec": "wwwroot\\imgs\\Blob.png"
     },
     {
       "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\Chatbot.png",
@@ -1326,25 +1326,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\greenhouse.png"
-    },
-    {
-      "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\plant.png",
-      "SourceId": "SF-DSS",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\",
-      "BasePath": "_content/SF-DSS",
-      "RelativePath": "imgs/plant.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\plant.png"
     },
     {
       "Identity": "C:\\Users\\ThinkPad\\source\\repos\\SF-DSS\\wwwroot\\imgs\\plant2.png",
