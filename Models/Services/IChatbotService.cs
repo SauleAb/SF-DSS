@@ -3,5 +3,6 @@
     public interface IChatbotService
     {
         Task<string> GetResponse(string message);
+        Task SaveConversationAsync();
     }
 }

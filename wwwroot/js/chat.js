@@ -20,6 +20,25 @@ connection.start().then(function () {
     return console.error(err.toString());
 });
 
+document.querySelector(".new-chat").addEventListener("click", async function (event) {
+    event.preventDefault();
+    await saveConversation();
+    startNewConversation();
+});
+
+async function saveConversation() {
+    await fetch("/Chatbot/SaveConversation", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+} //needs fixing
+
+function startNewConversation() {
+    document.getElementById("messagesList").innerHTML = "";
+}
+
 document.getElementById("sendButton").addEventListener("click", function (event) {
     event.preventDefault();
     sendMessage();

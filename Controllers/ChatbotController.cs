@@ -23,5 +23,19 @@ namespace SF_DSS.Controllers
             var response = await  _chatbotService.GetResponse(message);
             return Ok(response);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> SaveConversation()
+        {
+            try
+            {
+                await _chatbotService.SaveConversationAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred while saving the conversation: {ex.Message}");
+            }
+        }
     }
 }

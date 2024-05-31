@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SF_DSS.Data;
 
@@ -11,9 +12,11 @@ using SF_DSS.Data;
 namespace SF_DSS.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240531095323_DB002")]
+    partial class DB002
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -255,7 +258,7 @@ namespace SF_DSS.Data.Migrations
                     b.Property<int?>("ConversationID")
                         .HasColumnType("int");
 
-                    b.Property<string>("MessageContent")
+                    b.Property<string>("Messsage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

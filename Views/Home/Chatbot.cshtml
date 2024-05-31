@@ -4,7 +4,10 @@
 
 <div class="chatbot-body">
     <div class="chatbot-history">
+        <div class="history-header">
         <h3>History</h3>
+         <button class="new-chat">+</button>
+         </div>
         <div class="history-blocks">
             <div class="block">
                 <div class="vl"></div>
@@ -43,6 +46,19 @@
 
     <style>
 
+        .new-chat {
+            background-color: lightgreen;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            margin: 15px;
+            border: none;
+        }
+        .history-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
         .title {
             color: black;
             font-size: 30px;
