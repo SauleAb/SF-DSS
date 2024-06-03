@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SF_DSS.Data.Entities;
+using SF_DSS.Models;
 using SF_DSS.Models.Services;
 
 namespace SF_DSS.Controllers
@@ -14,7 +16,7 @@ namespace SF_DSS.Controllers
 
         public IActionResult Index()
         {
-            return View();
+             return View();
         }
 
         [HttpGet]
@@ -24,18 +26,11 @@ namespace SF_DSS.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> SaveConversation()
+        [HttpGet]
+        public async Task<IActionResult> GetAllConversations()
         {
-            try
-            {
-                await _chatbotService.SaveConversationAsync();
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"An error occurred while saving the conversation: {ex.Message}");
-            }
+            var conversations = await _chatbotService.GetAllConversationsAsync();
+            return Ok(conversations);
         }
     }
 }

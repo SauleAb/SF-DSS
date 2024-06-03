@@ -3,14 +3,15 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SF_DSS.Data.Migrations
+namespace SF_DSS.Migrations
 {
     /// <inheritdoc />
-    public partial class DB002 : Migration
+    public partial class DB001 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.CreateTable(
                 name: "Conversations",
                 columns: table => new
@@ -32,8 +33,8 @@ namespace SF_DSS.Data.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Messsage = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ConversationID = table.Column<int>(type: "int", nullable: true)
+                    Content = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ConversationID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -42,15 +43,10 @@ namespace SF_DSS.Data.Migrations
                         name: "FK_Messages_Conversations_ConversationID",
                         column: x => x.ConversationID,
                         principalTable: "Conversations",
-                        principalColumn: "ID");
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Messages_ConversationID",
-                table: "Messages",
-                column: "ConversationID");
         }
-
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {

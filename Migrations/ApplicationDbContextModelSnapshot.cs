@@ -3,20 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SF_DSS.Data;
 
 #nullable disable
 
-namespace SF_DSS.Data.Migrations
+namespace SF_DSS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240531115952_DB003")]
-    partial class DB003
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -244,7 +241,7 @@ namespace SF_DSS.Data.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Conversations");
+                    b.ToTable("Conversations", (string)null);
                 });
 
             modelBuilder.Entity("SF_DSS.Data.Entities.Message", b =>
@@ -255,12 +252,12 @@ namespace SF_DSS.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int?>("ConversationID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("MessageContent")
+                    b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ConversationID")
+                        .HasColumnType("int");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -270,7 +267,7 @@ namespace SF_DSS.Data.Migrations
 
                     b.HasIndex("ConversationID");
 
-                    b.ToTable("Messages");
+                    b.ToTable("Messages", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -328,7 +325,9 @@ namespace SF_DSS.Data.Migrations
                 {
                     b.HasOne("SF_DSS.Data.Entities.Conversation", null)
                         .WithMany("Messages")
-                        .HasForeignKey("ConversationID");
+                        .HasForeignKey("ConversationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SF_DSS.Data.Entities.Conversation", b =>

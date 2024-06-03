@@ -28,7 +28,6 @@ namespace SF_DSS
             builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
 
             builder.Services.AddScoped<IChatbotService, ChatbotService>();
-
             builder.Services.AddScoped<HttpClient>();
             builder.Services.AddRequestTimeouts(options => {
                 options.DefaultPolicy =

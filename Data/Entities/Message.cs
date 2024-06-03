@@ -4,6 +4,7 @@
     {
         public int ID { get; set; }
         public string Role { get; set; }
-        public string MessageContent { get; set; }
+        public string Content { get; set; }
+        public int ConversationID {  get; set; }
     }
 }

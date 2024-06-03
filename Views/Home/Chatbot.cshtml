@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Chatbot";
 }
+@model SF_DSS.Models.ChatbotModel
 
 <div class="chatbot-body">
     <div class="chatbot-history">
@@ -9,20 +10,24 @@
          <button class="new-chat">+</button>
          </div>
         <div class="history-blocks">
-            <div class="block">
-                <div class="vl"></div>
-                <div class="block-info">
-                    <label class="title">Tomatoes</Label>
-                    <label class="last-edited">Last edited: Currently editing</Label>
-                </div>
-            </div>
-            <div class="block">
-                <div class="vl"></div>
-                <div class="block-info">
-                    <label class="title">Chrysanthiums</label>
-                    <label class="last-edited">Last edited: 19/20/02</label>
-                </div>
-            </div>
+            @if (Model.Conversations != null && Model.Conversations.Any())
+            {
+                @for (int i = Model.Conversations.Count - 1; i >= 0; i--)
+                {
+                    var conversation = Model.Conversations[i];
+                    <div class="block">
+                        <div class="vl"></div>
+                        <div class="block-info">
+                            <label class="title">@conversation.Title</label>
+                            <label class="last-edited">@conversation.LastModified</label>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No conversations found.</p>
+            }
         </div>
         <img src="~/imgs/Blob.png"/>
     </div>
@@ -42,6 +47,11 @@
 @section Scripts {
     <script src="~/js/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/chat.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async function () {
+            await loadAllConversations();
+        });
+    </script>
 }
 
     <style>
@@ -85,8 +95,10 @@
             padding: 5px 50px;
             display: flex;
             flex-direction: row;
-            height: 100px;
+            height: 200px;
             align-items: center;
+            max-height: 200px;
+            overflow-y: auto;
         }
         h3 {
             color: #63A46C;
@@ -99,6 +111,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            overflow-y: auto;
         }
 
         .chatbot-body {

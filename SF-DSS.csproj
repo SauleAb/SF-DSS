@@ -67,4 +67,8 @@
     <None Include="wwwroot\imgs\background.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
 </Project>
