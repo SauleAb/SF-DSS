@@ -9,7 +9,7 @@
         <h3>History</h3>
          <button class="new-chat">+</button>
          </div>
-        <div class="history-blocks">
+        <div class="history-blocks overflow-auto">
             @if (Model.Conversations != null && Model.Conversations.Any())
             {
                 @for (int i = Model.Conversations.Count - 1; i >= 0; i--)
@@ -37,7 +37,7 @@
             <div class="chat" id="chatArea">
                 <ul id="messagesList"></ul>
             </div>
-            <footer class="chatbot-footer">
+            <footer class="chatbot-footer mb-4">
                 <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
                 <button id="sendButton" class="send-button"><b>Send</b></button>
             </footer>
@@ -108,10 +108,10 @@
 
         .chatbot-history {
             max-width: 25%;
+            max-height: 90vh;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            overflow-y: auto;
         }
 
         .chatbot-body {
@@ -149,7 +149,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 100px 0;
     }
 
     .input-message {

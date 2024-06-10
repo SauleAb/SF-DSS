@@ -51,7 +51,10 @@ namespace SF_DSS.Models.Services
                 _conversation.Messages.Add(chatbotMessage);
                 _conversation.LastModified = DateTime.Now;
 
-                _conversation.Title = await GetConversationTitle(_conversation.Messages);
+                if (string.IsNullOrEmpty(_conversation.Title))
+                {
+                    _conversation.Title = await GetConversationTitle(_conversation.Messages);
+                }
 
                 _context.Messages.Add(userMessage);
                 _context.Messages.Add(chatbotMessage);
