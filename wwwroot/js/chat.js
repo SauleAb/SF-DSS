@@ -64,10 +64,9 @@ function sendMessage() {
 
     document.getElementById("sendButton").disabled = true;
 
-    var typingLi = document.createElement("li");
+    var typingLi = document.createElement("div");
     typingLi.id = "typingIndicator";
-    typingLi.className = "typing-indicator";
-    typingLi.textContent = "Chatbot is typing...";
+    typingLi.className = "loader";
     document.getElementById("messagesList").appendChild(typingLi);
 
     $.ajax({
@@ -80,13 +79,11 @@ function sendMessage() {
                 typingIndicator.remove();
             }
 
-            var steps = response.split("\n\n\n");
-            steps.forEach(function (step) {
-                var botLi = document.createElement("li");
-                botLi.className = "bot-message";
-                botLi.innerHTML = "Chatbot: " + step.replace("\n\n", "<br>");
-                document.getElementById("messagesList").appendChild(botLi);
-            });
+            var botLi = document.createElement("li");
+            botLi.className = "bot-message";
+            botLi.style.whiteSpace = "pre-wrap";
+            botLi.innerText = "Chatbot: " + response;
+            document.getElementById("messagesList").appendChild(botLi);
 
             document.getElementById("sendButton").disabled = false;
 
