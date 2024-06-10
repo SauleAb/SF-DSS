@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1lqZfrq8Qs=",
+  "dgSpecHash": "t+F/2XTYdWk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\SF-DSS\\SF-DSS.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\SF-DSS\\SF-DSS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

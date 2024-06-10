@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\SF-DSS\\SF-DSS.csproj": {}
+    "C:\\Users\\User\\source\\repos\\SF-DSS\\SF-DSS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\SF-DSS\\SF-DSS.csproj": {
+    "C:\\Users\\User\\source\\repos\\SF-DSS\\SF-DSS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SF-DSS\\SF-DSS.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\SF-DSS\\SF-DSS.csproj",
         "projectName": "SF-DSS",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\SF-DSS\\SF-DSS.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\SF-DSS\\SF-DSS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\SF-DSS\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\SF-DSS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

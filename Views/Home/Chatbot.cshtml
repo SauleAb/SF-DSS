@@ -6,8 +6,8 @@
 <div class="chatbot-body">
     <div class="chatbot-history">
         <div class="history-header">
-        <h3>History</h3>
-         <button class="new-chat">+</button>
+            <h3>History</h3>
+             <button class="new-chat">+</button>
          </div>
         <div class="history-blocks overflow-auto">
             @if (Model.Conversations != null && Model.Conversations.Any())
@@ -47,11 +47,6 @@
 @section Scripts {
     <script src="~/js/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/chat.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", async function () {
-            await loadAllConversations();
-        });
-    </script>
 }
 
     <style>
