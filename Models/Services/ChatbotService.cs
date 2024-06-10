@@ -30,11 +30,16 @@ namespace SF_DSS.Models.Services
             _context = context;
         }
 
-        public async Task<string> GetResponse(string message)
+        public async Task<Conversation> GetResponse(string message, int? convoId)
         {
             try
             {
                 _httpClient.Timeout = TimeSpan.FromSeconds(1000);
+                if (convoId != null)
+                {
+                    _conversation = await GetConversationDetails((int)convoId);
+                }
+
                 var userMessage = new Message { Role = "user", Content = message };
                 _conversation.Messages.Add(userMessage);
 
@@ -47,7 +52,6 @@ namespace SF_DSS.Models.Services
                 userMessage.ConversationID = _conversation.ID;
                 chatbotMessage.ConversationID = _conversation.ID;
 
-                _conversation.Messages.Add(userMessage);
                 _conversation.Messages.Add(chatbotMessage);
                 _conversation.LastModified = DateTime.Now;
 
@@ -56,23 +60,31 @@ namespace SF_DSS.Models.Services
                     _conversation.Title = await GetConversationTitle(_conversation.Messages);
                 }
 
-                _context.Messages.Add(userMessage);
-                _context.Messages.Add(chatbotMessage);
-                _context.Conversations.Update(_conversation);
-                await _context.SaveChangesAsync();
+                if (convoId != null) 
+                {
+                    var entity = _context.Conversations.Update(_conversation).Entity;
+                    await _context.SaveChangesAsync();
 
-                return responseBody;
+                    return entity;
+                }
+
+                var newEntity = await SaveConversationAsync();
+
+                return newEntity;
+
             }
             catch (Exception ex)
             {
-                return "An error occurred while communicating with the chatbot API: " + ex.Message;
+                throw new Exception(ex.Message);
             }
         }
 
-        public async Task SaveConversationAsync()
+        public async Task<Conversation> SaveConversationAsync()
         {
-            _context.Conversations.Add(_conversation);
+            var entity =_context.Conversations.Add(_conversation).Entity;
             await _context.SaveChangesAsync();
+
+            return entity;
         }
 
         public async Task<Conversation> GetConversationDetails(int id)

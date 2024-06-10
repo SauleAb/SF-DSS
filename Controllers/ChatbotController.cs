@@ -2,6 +2,7 @@
 using SF_DSS.Data.Entities;
 using SF_DSS.Models;
 using SF_DSS.Models.Services;
+using System.Collections.Generic;
 
 namespace SF_DSS.Controllers
 {
@@ -16,14 +17,14 @@ namespace SF_DSS.Controllers
 
         public IActionResult Index()
         {
-             return View();
+            return View();
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetResponse(string message)
+        public async Task<IActionResult> GetResponse(string message, int? convoId)
         {
-            var response = await  _chatbotService.GetResponse(message);
-            return Ok(response);
+            var response = await _chatbotService.GetResponse(message, convoId);
+            return Ok(new Dictionary<string, object> { { "response", response.Messages.Last().Content }, { "id", response.ID } });
         }
 
         [HttpGet]

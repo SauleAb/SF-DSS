@@ -69,10 +69,13 @@ function sendMessage() {
     typingLi.className = "loader";
     document.getElementById("messagesList").appendChild(typingLi);
 
+    var chatArea = document.getElementById("chatArea");
+    var convoId = chatArea.getAttribute("data-value");
+
     $.ajax({
         url: "/Chatbot/GetResponse",
         type: "GET",
-        data: { message: message },
+        data: { message: message, convoId: convoId },
         success: function (response) {
             var typingIndicator = document.getElementById("typingIndicator");
             if (typingIndicator) {
@@ -82,12 +85,13 @@ function sendMessage() {
             var botLi = document.createElement("li");
             botLi.className = "bot-message";
             botLi.style.whiteSpace = "pre-wrap";
-            botLi.innerText = "Chatbot: " + response;
+            botLi.innerText = "Chatbot: " + response.response;
             document.getElementById("messagesList").appendChild(botLi);
 
             document.getElementById("sendButton").disabled = false;
 
             var chatArea = document.getElementById("chatArea");
+            chatArea.setAttribute("data-value", response.id);
             chatArea.scrollTop = chatArea.scrollHeight;
         },
         error: function (xhr, status, error) {
