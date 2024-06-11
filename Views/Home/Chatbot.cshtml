@@ -7,7 +7,7 @@
     <div class="chatbot-history">
         <div class="history-header">
             <h3>History</h3>
-             <button class="new-chat">+</button>
+            <button class="new-chat" id="new-chat"><i class="fa-solid fa-plus"></i></button>
          </div>
         <div class="history-blocks overflow-auto">
             @if (Model.Conversations != null && Model.Conversations.Any())
@@ -24,10 +24,6 @@
                     </div>
                 }
             }
-            else
-            {
-                <p>No conversations found.</p>
-            }
         </div>
         <div>
             <img class="w-100 h-100" src="~/imgs/Blob.png"/>
@@ -36,8 +32,27 @@
     <div class="chatbot-container">
         <div class="chatbot">
         <h3>Chat</h3>
-            <div class="chat overflow-auto" id="chatArea">
-                <ul id="messagesList"></ul>
+            <div class="chat overflow-auto" @(Model.Conversation != null ? $"data-value={Model.Conversation.ID}" : "") id="chatArea">
+                <ul id="messagesList">
+                    @if (Model.Conversation != null && Model.Conversation.Messages != null)
+                    {
+                        @foreach (var message in Model.Conversation.Messages.Skip(2))
+                        {
+                            if (message.Role == "user")
+                            {
+                                <li class="user-message">
+                                    You: @Html.Raw(message.Content.Replace("\n", "<br/>"))
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="bot-message">
+                                    Chatbot: @Html.Raw(message.Content.Replace("""\n""", "<br/>"))
+                                </li>
+                            }
+                        }
+                    }
+                </ul>
             </div>
             <footer class="chatbot-footer mb-4">
                 <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
@@ -248,3 +263,12 @@
     80%{background-position:0%  50%, 50%  50%,100% 100%}
 }
 </style>
+
+<script>
+    $(document).ready(function () {
+        $(".block").click(function () {
+            var id = $(this).data("value");
+            window.location.href = "/Home/Chatbot/" + id;
+        });
+    });
+</script>
