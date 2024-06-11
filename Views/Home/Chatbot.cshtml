@@ -57,6 +57,7 @@
             <footer class="chatbot-footer mb-4">
                 <input class="input-message" id="messageInput" type="text" placeholder="Your Message" />
                 <button id="sendButton" class="send-button"><b>Send</b></button>
+                <button id="btn-json" class="btn btn-outline-success"><i class="fa-solid fa-seedling"></i></button>
             </footer>
         </div>
     </div>
@@ -269,6 +270,10 @@
         $(".block").click(function () {
             var id = $(this).data("value");
             window.location.href = "/Home/Chatbot/" + id;
+        });
+        $("#btn-json").click(function () {
+            $("#messageInput").val("Give me JSON");
+            $("#sendButton").click();
         });
     });
 </script>

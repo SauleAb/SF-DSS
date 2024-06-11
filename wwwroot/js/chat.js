@@ -65,6 +65,8 @@ function startNewConversation() {
         document.getElementById("messagesList").appendChild(userLi);
 
         document.getElementById("sendButton").disabled = true;
+        document.getElementById("btn-json").disabled = true;
+
 
         var typingLi = document.createElement("div");
         typingLi.id = "typingIndicator";
@@ -134,6 +136,7 @@ function startNewConversation() {
                         document.getElementById("messagesList").appendChild(botLi);
 
                         document.getElementById("sendButton").disabled = false;
+                        document.getElementById("btn-json").disabled = false;
 
                         var chatArea = document.getElementById("chatArea");
                         chatArea.setAttribute("data-value", response.id);
@@ -168,6 +171,7 @@ function startNewConversation() {
                     document.getElementById("messagesList").appendChild(botLi);
 
                     document.getElementById("sendButton").disabled = false;
+                    document.getElementById("btn-json").disabled = false;
 
                     var chatArea = document.getElementById("chatArea");
                     chatArea.setAttribute("data-value", response.id);
