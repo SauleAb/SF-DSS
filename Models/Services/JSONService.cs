@@ -18,6 +18,8 @@ namespace SF_DSS.Models.Services
         {
             try
             {
+                _httpClient.Timeout = TimeSpan.FromSeconds(100000);
+
                 var response = await _httpClient.PostAsJsonAsync("http://95.99.2.118:5001/json_from_chat_history/", conversation.Messages);
 
                 return await response.Content.ReadFromJsonAsync<GreenhouseController>();

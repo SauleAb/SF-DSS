@@ -26,11 +26,12 @@ namespace SF_DSS.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Chatbot()
+        public async Task<IActionResult> Chatbot(int? id)
         {
             var model = new ChatbotModel
             {
-                Conversations = await _chatbotService.GetAllConversationsAsync()
+                Conversations = await _chatbotService.GetAllConversationsAsync(),
+                Conversation = id != null ?  await _chatbotService.GetConversationDetails((int)id) : null
             };
             return View(model);
         }
