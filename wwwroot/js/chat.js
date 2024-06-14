@@ -103,15 +103,15 @@ function startNewConversation() {
                             var row = document.createElement("tr");
 
                             var propCell = document.createElement("td");
-                            propCell.innerText = prop;
+                            propCell.innerText = " " + prop;
                             propCell.style.border = "1px solid black"; // Add border to the cells
                             row.appendChild(propCell);
 
                             var valueCell = document.createElement("td");
-                            valueCell.innerText = response[prop];
+                            valueCell.innerText = " " + response[prop] + " ";
                             valueCell.style.border = "1px solid black"; // Add border to the cells
                             row.appendChild(valueCell);
-
+                            
                             table.appendChild(row);
                         }
 
