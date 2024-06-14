@@ -26,7 +26,7 @@ namespace SF_DSS.Controllers
         public async Task<IActionResult> GetResponse(string message, int? convoId)
         {
             var response = await _chatbotService.GetResponse(message, convoId);
-            return Ok(new Dictionary<string, object> { { "response", response.Messages.Last().Content }, { "id", response.ID } });
+            return Ok(new Dictionary<string, object> { { "response", response.Messages.Last().Content.Replace("""\n""", "<br/>") }, { "id", response.ID } });
         }
 
         [HttpGet]

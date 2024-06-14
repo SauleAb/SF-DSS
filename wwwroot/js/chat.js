@@ -131,7 +131,10 @@ function startNewConversation() {
                         var sendButton = document.createElement("button");
                         sendButton.textContent = "Send to Greenhouse?";
                         sendButton.className = "btn btn-success";
+                        sendButton.id = "btn-json";
 
+                        var message = "Temperature: " + response["temperature"] + "CHumidity: " + response["humidity"] + "%";
+                        
                         botLi.appendChild(sendButton);
                         document.getElementById("messagesList").appendChild(botLi);
 
@@ -141,6 +144,10 @@ function startNewConversation() {
                         var chatArea = document.getElementById("chatArea");
                         chatArea.setAttribute("data-value", response.id);
                         chatArea.scrollTop = chatArea.scrollHeight;
+                        document.getElementById("btn-json").addEventListener("click", function (event) {
+                            event.preventDefault();                       
+                            connection.invoke("OnArduinoControllerWriteMessage", message);
+                        });
                     },
                     error: function (xhr, status, error) {
                         console.error(error);

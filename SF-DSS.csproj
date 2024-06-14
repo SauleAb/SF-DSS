@@ -71,4 +71,8 @@
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArduinoTest\ArduinoTest.csproj" />
+  </ItemGroup>
+
 </Project>
