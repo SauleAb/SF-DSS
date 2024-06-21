@@ -174,7 +174,7 @@ function startNewConversation() {
                     var botLi = document.createElement("li");
                     botLi.className = "bot-message";
                     botLi.style.whiteSpace = "pre-wrap";
-                    botLi.innerText = "Chatbot: " + response.response;
+                    botLi.innerHTML = "<p>Chatbot: " + response.response.toString() + "</p>";
                     document.getElementById("messagesList").appendChild(botLi);
 
                     document.getElementById("sendButton").disabled = false;
